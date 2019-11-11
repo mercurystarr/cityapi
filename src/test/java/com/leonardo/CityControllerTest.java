@@ -103,10 +103,10 @@ public class CityControllerTest {
 	@Test
 	public void updateCity_thenConfirmUpdated() throws Exception {
 		City city = new City();
-		city.setId(1);
-		city.setName("Osaka");
-		city.setLatitude(34.6937);
-		city.setLongitude(135.5023);
+		city.setId(15);
+		city.setName("Orlando");
+		city.setLatitude(28.5383);
+		city.setLongitude(81.3792);
 
 		mvc.perform(put("/city")
 				.content(objectMapper.writeValueAsString(city))
@@ -115,7 +115,7 @@ public class CityControllerTest {
 				.andDo(print())
 				.andExpect(status().isOk());
 
-		mvc.perform(get("/city/1")
+		mvc.perform(get("/city/15")
 				.accept(MediaType.APPLICATION_JSON))
 				.andExpect(status().isOk())
 				.andExpect(jsonPath("$.name", is(city.getName())))
