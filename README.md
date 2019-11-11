@@ -13,6 +13,7 @@ You will need the following to run this application
 ```
 spring-boot:run
 ```
+This webservice is configured to run on port 8081, eg http://localhost:8081
 
 ### API Details
 
@@ -199,7 +200,7 @@ curl -H "Content-Type: application/json" -X POST -d '{"name":"Mexico City","lati
 curl -X PUT -H "Content-Type: application/json" -d '{"id":1,"name":"Osaka","latitude":34.6937,"longitude":135.5023}' 'http://localhost:8081/city' 
 ```
 
-+ **Success Response:** 201 CREATED
++ **Success Response:** 200 OK
 
 #### Get distance between two cities
 
