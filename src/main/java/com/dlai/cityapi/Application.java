@@ -1,4 +1,4 @@
-package com.leonardo;
+package com.dlai.cityapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

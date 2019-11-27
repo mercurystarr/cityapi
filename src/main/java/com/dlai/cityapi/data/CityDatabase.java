@@ -1,11 +1,9 @@
-package com.leonardo.data;
+package com.dlai.cityapi.data;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.leonardo.model.City;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Repository;
+import com.dlai.cityapi.model.City;
 
 public class CityDatabase {
 	private List<City> cityList;

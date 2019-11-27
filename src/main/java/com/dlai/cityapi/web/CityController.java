@@ -1,8 +1,8 @@
-package com.leonardo.web;
+package com.dlai.cityapi.web;
 
-import com.leonardo.data.CityDAO;
-import com.leonardo.model.City;
-import com.leonardo.util.HaversineAlgorithmUtil;
+import com.dlai.cityapi.model.City;
+import com.dlai.cityapi.data.CityDAO;
+import com.dlai.cityapi.util.HaversineAlgorithmUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.leonardo.model;
+package com.dlai.cityapi.model;
 
 public class City {
 	private Integer id;

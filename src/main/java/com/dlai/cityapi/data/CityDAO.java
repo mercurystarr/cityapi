@@ -1,9 +1,9 @@
-package com.leonardo.data;
+package com.dlai.cityapi.data;
 
 import java.util.List;
 import java.util.Random;
 
-import com.leonardo.model.City;
+import com.dlai.cityapi.model.City;
 import org.springframework.stereotype.Component;
 
 @Component

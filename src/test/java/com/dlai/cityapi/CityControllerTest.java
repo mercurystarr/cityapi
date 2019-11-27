@@ -1,9 +1,9 @@
-package com.leonardo;
+package com.dlai.cityapi;
 
+import com.dlai.cityapi.model.City;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.leonardo.data.CityDAO;
-import com.leonardo.model.City;
-import com.leonardo.web.CityController;
+import com.dlai.cityapi.data.CityDAO;
+import com.dlai.cityapi.web.CityController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
